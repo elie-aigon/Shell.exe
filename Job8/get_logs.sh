@@ -8,5 +8,5 @@ cp number_connection-$date.tar.gz Backup/
 rm /home/elie/Shell.exe/Job8/number_connection-$date
 
 # crontab paramètre: 
-#0 * * * * sh /home/elie/Shell.exe/Job8/get_logs.sh
+#*/5 * * * * sh /home/elie/Shell.exe/Job8/get_logs.sh
 
